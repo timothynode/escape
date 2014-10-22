@@ -1,0 +1,28 @@
+{
+  "name": "chn-escape",
+  "version": "1.0.0",
+  "description": "nodejs关键词过滤工具",
+  "main": "escape.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timothynode/escape.git"
+  },
+  "keywords": [
+    "关键词",
+    "过滤",
+    "敏感词",
+    "trie"
+  ],
+  "author": "Timothy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timothynode/escape/issues"
+  },
+  "homepage": "https://github.com/timothynode/escape",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
