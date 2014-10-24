@@ -11,3 +11,5 @@ console.log('检测语句:');
 console.log(str);
 console.log('查找到的关键词数组:');
 console.log(esc.find(str));
+console.log('净化后的结果');
+console.log(esc.santize(str));
