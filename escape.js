@@ -30,7 +30,7 @@ function translation(str) {
     /*繁体=>简体*/
     if (chHex > 0x4E00 && chHex < 0x9FFF) {
       var index = traChn.indexOf(ch);
-      if (index > 0) {
+      if (index > -1) {
         ch = simChn[index];
         chHex = simChn.charCodeAt(index).toString(16);
         chHex = _.parseInt(chHex, 16);
