@@ -4,8 +4,7 @@ var esc = new ChnEscapec();
 
 var list = [
     '中国',
-    '共产党',
-    '微软'
+    '共产党'
 ]
 
 esc.init(list);
