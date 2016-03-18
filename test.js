@@ -1,8 +1,10 @@
-var esc = require('./escape.js');
+var ChnEscapec = require('./escape.js');
+
+var esc = new ChnEscapec();
 
 var list = [
-  '中国',
-  '共产党'
+    '中国',
+    '共产党'
 ]
 
 esc.init(list);
